@@ -1,0 +1,37 @@
+# site header links
+main:
+  - title: "Get Started"
+    url: /docs/get-started/
+  - title: "Contribute"
+    url: /contributing/
+  - title: "About"
+    url: /about/
+  - title: "License"
+    url: /license/
+  #- title: "Announcements"
+  #  url: /news/
+
+# docs pages left navbar links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Get Started"
+        url: /docs/get-started/
+  - title: Other 1
+    children:
+      - title: "A"
+        url: /docs/a/
+      - title: "B"
+        url: /docs/b/
+  - title: Other 2
+    children:
+      - title: "C"
+        url: /docs/c/
+  - title: Other
+    children:
+      - title: "Contributing"
+        url: /contributing/
+      - title: "About"
+        url: /about/
+      - title: "License"
+        url : /license/
