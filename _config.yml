@@ -27,6 +27,9 @@ breadcrumbs: true
 comments:
   provider: false
 
+atom_feed:
+  hide: true
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -36,7 +39,6 @@ timezone: Europe/Brussels # https://en.wikipedia.org/wiki/List_of_tz_database_ti
 include:
   - .htaccess
   - _pages
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -48,6 +50,32 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -63,7 +91,7 @@ plugins:
 
 author:
   name   : "Lucas Placentino"
-  avatar : #"/assets/images/bio-photo.jpg"
+  avatar : "https://avatars.githubusercontent.com/u/23436953" #"/assets/images/bio-photo.jpg"
   bio    : ""
   links:
     #- label: "Website"
@@ -75,6 +103,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/LucasPlacentino"
+
+social:
+  type: "Organization" # Person or Organization (defaults to Person)
+  name: "Espressomatico" # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://github.com/Espressomatico"
 
 footer:
   links:
