@@ -8,8 +8,10 @@ remote_theme: mmistakes/minimal-mistakes@4.26.2
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Espressomatico
+title_separator: "-"
+subtitle: "Espressomatico..."
 locale: "en"
-email:
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Espressomatico
 #twitter_username: espressomatico
